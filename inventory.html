@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventory - Lenana Car Deals</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f6d365, #fda085);
+      color: #333;
+    }
+    header {
+      background-color: #264653;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+      color: #ffddc1;
+    }
+    main {
+      padding: 30px 20px;
+      text-align: center;
+    }
+    section {
+      background-color: white;
+      padding: 25px;
+      margin: auto;
+      max-width: 1100px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #e76f51;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .car-type {
+      margin-bottom: 40px;
+    }
+    .car-type h3 {
+      color: #264653;
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+    .car-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+    .car-item {
+      background-color: #f1f1f1;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .car-item img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .car-item p {
+      margin: 10px 0 0;
+      color: #555;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #264653;
+      color: white;
+      text-align: center;
+      padding: 12px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Available Cars at Lenana Dealership</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Our Inventory</h2>
+
+      <!-- BMW Section -->
+      <div class="car-type">
+        <h3>BMW</h3>
+        <div class="car-gallery">
+          <div class="car-item"><img src="image/bmw1.jpg" alt="BMW 1"><p>Price: $40,500</p></div>
+          <div class="car-item"><img src="image/bmw2.jpg" alt="BMW 2"><p>Price: $42,000</p></div>
+          <div class="car-item"><img src="image/bmw3.jpg" alt="BMW 3"><p>Price: $45,300</p></div>
+          <div class="car-item"><img src="image/bmw4.jpg" alt="BMW 4"><p>Price: $47,800</p></div>
+        </div>
+      </div>
+
+      <!-- Subaru Section -->
+      <div class="car-type">
+        <h3>Subaru</h3>
+        <div class="car-gallery">
+          <div class="car-item"><img src="image/subaru1.jpg" alt="Subaru 1"><p>Price: $24,500</p></div>
+          <div class="car-item"><img src="image/subaru2.jpg" alt="Subaru 2"><p>Price: $26,100</p></div>
+          <div class="car-item"><img src="image/subaru3.jpg" alt="Subaru 3"><p>Price: $27,000</p></div>
+          <div class="car-item"><img src="image/subaru4.jpg" alt="Subaru 4"><p>Price: $28,600</p></div>
+        </div>
+      </div>
+
+      <!-- Mazda Section -->
+      <div class="car-type">
+        <h3>Mazda</h3>
+        <div class="car-gallery">
+          <div class="car-item"><img src="image/mazda1.jpg" alt="Mazda 1"><p>Price: $22,300</p></div>
+          <div class="car-item"><img src="image/mazda2.jpg" alt="Mazda 2"><p>Price: $23,700</p></div>
+          <div class="car-item"><img src="image/mazda3.jpg" alt="Mazda 3"><p>Price: $25,100</p></div>
+          <div class="car-item"><img src="image/mazda4.jpg" alt="Mazda 4"><p>Price: $26,400</p></div>
+        </div>
+      </div>
+
+      <!-- Toyota Section -->
+      <div class="car-type">
+        <h3>Toyota</h3>
+        <div class="car-gallery">
+          <div class="car-item"><img src="image/toyota1.jpg" alt="Toyota 1"><p>Price: $20,500</p></div>
+          <div class="car-item"><img src="image/toyota2.jpg" alt="Toyota 2"><p>Price: $21,800</p></div>
+          <div class="car-item"><img src="image/toyota3.jpg" alt="Toyota 3"><p>Price: $23,000</p></div>
+          <div class="car-item"><img src="image/toyota4.jpg" alt="Toyota 4"><p>Price: $24,300</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lenana Car Dealership</p>
+  </footer>
+</body>
+</html>
